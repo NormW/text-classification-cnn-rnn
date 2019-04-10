@@ -14,8 +14,8 @@ try:
 except NameError:
     unicode = str
 
-base_dir = 'data/cnews'
-vocab_dir = os.path.join(base_dir, 'cnews.vocab.txt')
+base_dir = 'data/reviews'
+vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
 
 save_dir = 'checkpoints/textcnn'
 save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径

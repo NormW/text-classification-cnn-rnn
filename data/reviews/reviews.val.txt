@@ -1,0 +1,8 @@
+Neutral	how can i fix this problem?
+Subjective	it's really annoying.
+Subjective	the latest update is worst.
+Subjective	the picture who sent by me or my friends is blurry.
+Neutral	can u fix it back to the old one pls?
+Subjective	its really annoying
+Subjective	after updating, i found a bug when i send photo or video, the photo resolution will be dropped even i send the original photoes.
+Neutral	pls fix it as fast as possible.
