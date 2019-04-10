@@ -6,3 +6,4 @@ Neutral	can u fix it back to the old one pls?
 Subjective	its really annoying
 Subjective	after updating, i found a bug when i send photo or video, the photo resolution will be dropped even i send the original photoes.
 Neutral	pls fix it as fast as possible.
+Objective	and can't join the square.

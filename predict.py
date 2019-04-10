@@ -3,11 +3,15 @@
 from __future__ import print_function
 
 import os
+from collections import Counter
+
 import tensorflow as tf
 import tensorflow.contrib.keras as kr
+from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_category, read_vocab
+from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file
+from text_pre_processor import split_text, tokenize_word
 
 try:
     bool(type(unicode))
@@ -16,8 +20,9 @@ except NameError:
 
 base_dir = 'data/reviews'
 vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
+train_file = os.path.join(base_dir, 'reviews.train.txt')
 
-save_dir = 'checkpoints/textcnn'
+save_dir = 'checkpoints/reviews'
 save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径
 
 
@@ -49,8 +54,30 @@ class CnnModel:
 
 
 if __name__ == '__main__':
-    cnn_model = CnnModel()
-    test_demo = ['三星ST550以全新的拍摄方式超越了以往任何一款数码相机',
-                 '热火vs骑士前瞻：皇帝回乡二番战 东部次席唾手可得新浪体育讯北京时间3月30日7:00']
-    for i in test_demo:
-        print(cnn_model.predict(i))
+    # cnn_model = CnnModel()
+    # test_demo = ['works great, much better than whatsapp',
+    #              'and cant join the square']
+    # for i in test_demo:
+    #     print(cnn_model.predict(i))
+
+    # contents, labels = read_file(train_file)
+    # print("")
+    # print(contents)
+    # build_vocab(train_file, vocab_dir)
+    # all_data = []
+    # for content in contents:
+    #     all_data.extend(content)
+    #
+    # counter = Counter(contents)
+    # print(all_data)
+    # print(counter)
+
+    # test = ["this is a test", "this is another test"]
+    # for content in test:
+    #     all_data.extend(word_tokenize(content))
+    #
+    # print(all_data)
+    categories, cat_to_id = read_category()
+    words, word_to_id = read_vocab(vocab_dir)
+    process_file(train_file, word_to_id, cat_to_id, 600)
+

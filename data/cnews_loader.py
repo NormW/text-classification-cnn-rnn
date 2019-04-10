@@ -5,6 +5,7 @@ from collections import Counter
 
 import numpy as np
 import tensorflow.contrib.keras as kr
+from nltk import word_tokenize
 
 if sys.version_info[0] > 2:
     is_py3 = True
@@ -48,7 +49,7 @@ def read_file(filename):
             try:
                 label, content = line.strip().split('\t')
                 if content:
-                    contents.append(list(native_content(content)))
+                    contents.append(native_content(content))
                     labels.append(native_content(label))
             except:
                 pass
@@ -61,7 +62,7 @@ def build_vocab(train_dir, vocab_dir, vocab_size=5000):
 
     all_data = []
     for content in data_train:
-        all_data.extend(content)
+        all_data.extend(word_tokenize(content))
 
     counter = Counter(all_data)
     count_pairs = counter.most_common(vocab_size - 1)
@@ -97,13 +98,17 @@ def to_words(content, words):
     return ''.join(words[x] for x in content)
 
 
-def process_file(filename, word_to_id, cat_to_id, max_length=600):
+def process_file(filename, word_to_id, cat_to_id, max_length=50):
     """将文件转换为id表示"""
     contents, labels = read_file(filename)
 
     data_id, label_id = [], []
     for i in range(len(contents)):
-        data_id.append([word_to_id[x] for x in contents[i] if x in word_to_id])
+        check = []
+        for x in word_tokenize(contents[i]):
+            if x in word_to_id:
+                check.append(word_to_id[x])
+        data_id.append(check)
         label_id.append(cat_to_id[labels[i]])
 
     # 使用keras提供的pad_sequences来将文本pad为固定长度
