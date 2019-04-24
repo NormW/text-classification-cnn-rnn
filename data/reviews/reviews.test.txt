@@ -1,9 +1,152 @@
-Neutral	how can i fix this problem?
-Subjective	it's really annoying.
-Subjective	the latest update is worst.
-Subjective	the picture who sent by me or my friends is blurry.
-Neutral	can u fix it back to the old one pls?
-Subjective	its really annoying
-Subjective	after updating, i found a bug when i send photo or video, the photo resolution will be dropped even i send the original photoes.
-Neutral	pls fix it as fast as possible.
-Objective	and can't join the square.
+OTHER_DOMAIN	work great much better whatsapp
+GENERAL_REVIEW	great app
+OTHER_DOMAIN	latest updat app run slow
+GENERAL_REVIEW	lag everytim scroll messag
+OUT_OF_DOMAIN	actual like applic applic pc also hard dont want app phone keep app pc
+OTHER_DOMAIN	hope make simpler dont need login
+GENERAL_REVIEW	cant join squar
+GENERAL_REVIEW	also crash tri open album page chat
+OUT_OF_DOMAIN	app need updat fix wechat get better better everi day
+OTHER_DOMAIN	look review clear app dead zero apathet develop team
+OTHER_DOMAIN	galaxi note app far greatest way commun friend around world complet free
+OUT_OF_DOMAIN	play app game someon anoth countri best way organ team meet game-start time even simpl trash-talk
+OUT_OF_DOMAIN	test coupl day seem ok
+OTHER_DOMAIN	best though peopl wouldnt instal top 1-2 app use
+GENERAL_REVIEW	still better mani other
+OTHER_DOMAIN	latest updat worst
+OTHER_DOMAIN	cant instal app anymor
+OUT_OF_DOMAIN	keep stop right code sent
+GENERAL_REVIEW	line terribl app
+OTHER_DOMAIN	im tryin restart phone restart line still slow
+GENERAL_REVIEW	overal cool cute sticker theme
+OTHER_DOMAIN	howev cant chang region move anoth countri
+OTHER_DOMAIN	thu cant chang phone number
+GENERAL_REVIEW	im happi
+OUT_OF_DOMAIN	suck ive got ban specif reason
+OTHER_DOMAIN	app lag recent
+OUT_OF_DOMAIN	often forc stop app reopen
+GENERAL_REVIEW	guess use line lite
+OUT_OF_DOMAIN	still littl bit lag switch chat timelin pleas fix
+OTHER_DOMAIN	week cant use line
+OUT_OF_DOMAIN	tri open line show black screen messag pop say someth like unfortun line stop
+OTHER_DOMAIN	verri good nice app
+GENERAL_REVIEW	there realli much complain compliment
+GENERAL_REVIEW	pretti decent consid updat much taken mani memori updat either
+OUT_OF_DOMAIN	everytim get updat result exact opposit
+OTHER_DOMAIN	bring back featur pleas one remov use
+OUT_OF_DOMAIN	ar sticker
+OUT_OF_DOMAIN	annoy u enter chat room second later black screen come chat close automat
+OTHER_DOMAIN	ad everywher
+OTHER_DOMAIN	get weird
+GENERAL_REVIEW	bad updat
+OTHER_DOMAIN	past line good applic best featur call
+OUT_OF_DOMAIN	good use app size big problem
+GENERAL_REVIEW	ton lag load chat
+OUT_OF_DOMAIN	also next imposs scroll old chat lag jump
+OUT_OF_DOMAIN	app instal somehow delet
+OUT_OF_DOMAIN	refus instal
+OTHER_DOMAIN	much batteri drain video call
+OUT_OF_DOMAIN	cant open new updat
+GENERAL_REVIEW	dont know line crash
+GENERAL_REVIEW	cant chat line squar
+OTHER_DOMAIN	cant send messag
+OUT_OF_DOMAIN	frequent disconnect call
+OUT_OF_DOMAIN	lot instabl call
+OTHER_DOMAIN	send messag friend didnt reveiv connect problem
+OTHER_DOMAIN	canr send text pm statu even voic note
+GENERAL_REVIEW	cant use voic messag everytim peopl send voic messag icant heard
+OUT_OF_DOMAIN	poor video call
+GENERAL_REVIEW	app great experienc problem couldnt open app video call someon
+OTHER_DOMAIN	call qualiti terribl
+GENERAL_REVIEW	skype what messeng better phone call
+OTHER_DOMAIN	automat cut anoth call come
+GENERAL_REVIEW	day call qualiti go
+OTHER_DOMAIN	alway hear doubl voci
+OUT_OF_DOMAIN	late voic
+OTHER_DOMAIN	day call qualiti go
+OTHER_DOMAIN	alway hear doubl voci
+OUT_OF_DOMAIN	late voic
+GENERAL_REVIEW	make call annoy echo note
+OTHER_DOMAIN	make call annoy echo
+GENERAL_REVIEW	dissapoint app updat automat couldnt send receiv chat anymor even call
+GENERAL_REVIEW	dissapoint app updat automat couldnt send reciev chat anymor even call
+GENERAL_REVIEW	auto join got invit group bit disturb
+OUT_OF_DOMAIN	make new set permiss join choos join someon invit group
+OUT_OF_DOMAIN	realli need block hide group chat function pleas
+OTHER_DOMAIN	video call loudspeak cant hear voic
+GENERAL_REVIEW	give read option android devic restrain chat chat menu
+GENERAL_REVIEW	nice experi video audio call compar whatsaap
+GENERAL_REVIEW	howev way add kick ppl chat aw
+OTHER_DOMAIN	u use abl kick within chat even view member chore access
+OTHER_DOMAIN	skype what messeng better phone call
+GENERAL_REVIEW	automat cut anoth call come
+GENERAL_REVIEW	drop call poor call qualiti common whether wifi network
+GENERAL_REVIEW	messag jump around inord
+OUT_OF_DOMAIN	screen block load peopl hear cant even get call
+OUT_OF_DOMAIN	cant get send messag last day
+OUT_OF_DOMAIN	howev keep get notif say unread messag sever contact that true
+OUT_OF_DOMAIN	check messag notif individu messag come there find miss
+OUT_OF_DOMAIN	also dismiss notif sometim return coupl minut late
+GENERAL_REVIEW	ive connect issu notif one havent mute come fine process isnt dead
+GENERAL_REVIEW	stop notifi mute chat
+OTHER_DOMAIN	delay notif massag
+OTHER_DOMAIN	recent notif sound miss lot massag
+OTHER_DOMAIN	notif doesnt show app close
+GENERAL_REVIEW	im issu cant see notif got phone screen lock doesnt show notif pop messag
+OTHER_DOMAIN	sometim didnt get notifi new messag open app
+GENERAL_REVIEW	good except notif
+GENERAL_REVIEW	gosh annoy app close whatev reason dont receiv notif
+GENERAL_REVIEW	check line make sure im overlook messag sibl
+OUT_OF_DOMAIN	sometim didnt get notifi new messag open app
+GENERAL_REVIEW	hello line chang notificatio set like old one
+OUT_OF_DOMAIN	didnt
+OUT_OF_DOMAIN	howev recent got new updat news page line today new
+GENERAL_REVIEW	hope chang new updat
+OUT_OF_DOMAIN	im sucker sticker pack
+OUT_OF_DOMAIN	thank line creator thank
+GENERAL_REVIEW	pleas fix asap
+OUT_OF_DOMAIN	devic samsung galaxi a5
+OTHER_DOMAIN	line need updat app otherwis left behind
+GENERAL_REVIEW	unaccept
+OUT_OF_DOMAIN	alway keep connect
+OTHER_DOMAIN	ok la ya
+GENERAL_REVIEW	pleas help problem
+OUT_OF_DOMAIN	shame
+GENERAL_REVIEW	much say space
+GENERAL_REVIEW	samurai sieg
+GENERAL_REVIEW	coc
+OUT_OF_DOMAIN	castl clash
+OUT_OF_DOMAIN	happen receiv frequent convers
+OTHER_DOMAIN	fix problem
+OUT_OF_DOMAIN	realli annoy
+OTHER_DOMAIN	u fix back old one pl
+OUT_OF_DOMAIN	realli annoy
+OTHER_DOMAIN	pl fix fast possibl
+OTHER_DOMAIN	hi line
+GENERAL_REVIEW	dont know got full memori whatsov could fix littl bit
+OUT_OF_DOMAIN	realli appreci
+OTHER_DOMAIN	thankyou
+GENERAL_REVIEW	use abl use app sinc keep stop guess ill find someth els
+OTHER_DOMAIN	dont know go
+OTHER_DOMAIN	user bewar
+OUT_OF_DOMAIN	use messeng viber instead
+GENERAL_REVIEW	much conveni keep data safe
+OUT_OF_DOMAIN	line app date internet speed fast im switch instagram youtub make sure prob internet connect
+OTHER_DOMAIN	line fix problem coolest app ever
+OTHER_DOMAIN	error messag pop state exceed maximum limit
+GENERAL_REVIEW	especi open ad page notif
+GENERAL_REVIEW	fix want wont lag anymor thank
+OTHER_DOMAIN	ive check phone app set sound turn
+OTHER_DOMAIN	pleas look matter urgent
+OTHER_DOMAIN	thank much
+GENERAL_REVIEW	pleas help
+OTHER_DOMAIN	face problem app
+OUT_OF_DOMAIN	could help pleas
+OUT_OF_DOMAIN	doesnt work
+OUT_OF_DOMAIN	bring back line
+OUT_OF_DOMAIN	happen sinc last updat
+GENERAL_REVIEW	pleas fix
+OUT_OF_DOMAIN	ad
+OTHER_DOMAIN	f ck
+OUT_OF_DOMAIN	app didnt problem last month
+OUT_OF_DOMAIN	day get wors

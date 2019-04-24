@@ -1,5 +1,6 @@
 .DS_Store
 data/cnews
+data/reviews
 data/thucnews
 __pycache__
 cnn_keras.py

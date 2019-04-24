@@ -18,7 +18,7 @@ base_dir = 'data/reviews'
 train_dir = os.path.join(base_dir, 'reviews.train.txt')
 test_dir = os.path.join(base_dir, 'reviews.test.txt')
 val_dir = os.path.join(base_dir, 'reviews.val.txt')
-vocab_dir = os.path.join(base_dir, 'cnews.vocab.txt')
+vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
 
 save_dir = 'checkpoints/reviews'
 save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径

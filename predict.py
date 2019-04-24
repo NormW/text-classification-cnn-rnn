@@ -3,6 +3,7 @@
 from __future__ import print_function
 
 import os
+import re
 from collections import Counter
 
 import tensorflow as tf
@@ -10,8 +11,8 @@ import tensorflow.contrib.keras as kr
 from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file
-from text_pre_processor import split_text, tokenize_word
+from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file, build_sentences, \
+    build_word_vec
 
 try:
     bool(type(unicode))
@@ -55,29 +56,16 @@ class CnnModel:
 
 if __name__ == '__main__':
     # cnn_model = CnnModel()
-    # test_demo = ['works great, much better than whatsapp',
-    #              'and cant join the square']
+    # test_demo = ['cant send photo gif',
+    #              'unabl send photo im data',
+    #              'mani bug afrer updat :( pl fix']
     # for i in test_demo:
     #     print(cnn_model.predict(i))
 
-    # contents, labels = read_file(train_file)
-    # print("")
-    # print(contents)
-    # build_vocab(train_file, vocab_dir)
-    # all_data = []
-    # for content in contents:
-    #     all_data.extend(content)
-    #
-    # counter = Counter(contents)
-    # print(all_data)
-    # print(counter)
-
-    # test = ["this is a test", "this is another test"]
-    # for content in test:
-    #     all_data.extend(word_tokenize(content))
-    #
-    # print(all_data)
     categories, cat_to_id = read_category()
     words, word_to_id = read_vocab(vocab_dir)
-    process_file(train_file, word_to_id, cat_to_id, 600)
+    x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
+    print(len(x_train[0]))
+    print(x_train[0])
+
 

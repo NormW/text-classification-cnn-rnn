@@ -1,65 +1,346 @@
-Subjective	works great, much better than whatsapp.
-Objective	however i keep getting notifications saying that i have unread messages from several contacts, but that's not true.
-Objective	i check my messages when the notifications for an individual message comes and 12 3 4 there's not any i can find that i missed.
-Objective	also, if i dismiss the notification, it will sometimes just return a couple minutes late.
-Subjective	really annoyed as i just transferred my line between devices.
-Objective	at no point was i asked if i wanted to beack up chats before confirming the transfer.
-Objective	so i didn't.
-Objective	i didnt know it was necessary since my pc version of line has all my chats.
-Subjective	it really sucks that there is no way to back up line chats from pc.
-Subjective	pictures sent and received are low quality, despite the quality setting being "high".
-Objective	also, taking and sending a picture directly in a chat are saved automatically.
-Neutral	i'd like to see an option to disable this function.
-Subjective	great app!
-Subjective	however, i recently got the new update, so the news page (line today) is new to me.
-Subjective	it's a bit annoying that when i open the app, the news page is the first thing i see instead of my chats.. hope that can change in a new update.
-Subjective	with s10+ i can't properly type since the app windows doesn't shift up to the upper part of the screen.
-Objective	you cant see what you typed.
-Objective	cant paste since the ui does not shift up as well :( pls fix
-Subjective	pretty decent app aside from some issues such as: size of the app, notifications/app dying in background sometimes, and no group admin feature.
-Objective	i've had 0 connection issues, and notifications (the one's which i haven't muted) come through fine if the process isn't dead.
-Subjective	i'm a sucker for sticker pack...
-Objective	when you log into another device you lose all information and messages.
-Subjective	get with the time and make it so that line can be used on more than 1 device for same account.
-Objective	i freaking lost everything which caused me to get kicked out of a game.
-Neutral	thanks line creators thanks for that.
-Subjective	after the latest update, the app runs so slow.
-Objective	it lags everytime i scroll the messages.
-Neutral	please, fix this asap.
-Objective	my device is samsung galaxy a5 2016
-Neutral	please give proxy feature at line for android & ios like line for pc.
-Objective	your competitor, viber has proxy feature at network setting.
-Objective	i need proxy setting when my android or ios connected over wifi to my office connection.
-Objective	after i updated my google chrome, i can not see any pictures in line today.
-Subjective	line need to update its app, otherwise will left behind
-Objective	please let us send original videos!!
-Objective	when i send a 4k or 1080p video and play it back, it looks so compressed and blurry in the app.
-Subjective	unacceptable!
-Subjective	actually i like this application, they have application for pc also but it hard when i don't want to have this app in my phone but keeps app for pc.
-Objective	because we always have to keep it connect.
-Subjective	i hope they make it more simpler, so i don't need to re login.
-Subjective	but ok la ya
-Objective	can't chat in the line square.
-Neutral	please help the problem
-Objective	stop notifying me about muted chats.
-Objective	also crashes when trying to open album page for chats.
-Objective	this app has been needing updates and fixes for a while, and wechat is only getting better and better every day.
-Subjective	after looking at other reviews, it's clear the app is dead with zero or just an apathetic development team.
-Subjective	what a shame.
-Subjective	pictures sent and received are low quality, despite the quality setting being "high".
-Objective	also, taking and sending a picture directly in a chat are saved automatically.
-Neutral	i'd like to see an option to disable this function.
-Subjective	galaxy note 9 this app is by far the greatest way to communicate with your friends from around the world, completely for free!
-Subjective	if you play any app or game with someone from another country then this is the best way to organize team meetings, game-start times or even just some simple trash-talking!!
-Objective	you can send pictures that you've taken with your camera, you can create a group chat room with approximately 200 other people.
-Objective	
-Subjective	so much more to say but no space.
-Neutral	samurai siege.
-Neutral	coc.
-Neutral	castle clash.
-Subjective	testing it for couple days and it seems ok, not the best though (some people wouldn't install the top 1-2 apps we're using here), it's slow to open and work with, seems bloated, cumbersome to operate by my mother, especially the long series of taping to get to real call option from recent chats screen (just needs two direct separate buttons there - call and video call).
-Subjective	uses too much "disk" space.
-Subjective	still better than many others.
-Subjective	delay notification and massage.
-Objective	it only happens with receiver that i frequently have conversation with.
-
+OUT_OF_DOMAIN	terribl app
+GENERAL_REVIEW	app got problem uninstal reinstal cannot work keep screen restor histori click skip button also cannot work
+OTHER_DOMAIN	line squar error use anymor everytim tri send messag alway error
+OUT_OF_DOMAIN	tri leav squar came back error wont let join back squar
+OTHER_DOMAIN	terribl app
+GENERAL_REVIEW	im mistaken old set let us choos led color new version cant find
+OUT_OF_DOMAIN	cant use one phone
+GENERAL_REVIEW	cant log phone number
+OUT_OF_DOMAIN	love line 8s best taik mu friend allot love
+GENERAL_REVIEW	start good first year
+GENERAL_REVIEW	like line
+GENERAL_REVIEW	hey love app pleas applic heavi heavier everi updat like suddenli laggi happen app phone
+GENERAL_REVIEW	app complic almost hate
+OTHER_DOMAIN	douchebag updat give us annoy pop ad hundr time
+OUT_OF_DOMAIN	updat bug
+OUT_OF_DOMAIN	slow open roomchat
+OUT_OF_DOMAIN	app work
+GENERAL_REVIEW	line import ive use mani year
+OTHER_DOMAIN	line import ive use mani year
+OTHER_DOMAIN	use app long time latest updat becom laggi
+OUT_OF_DOMAIN	naver keep push updat everi week occupi memori add unnecessari featur yet cant prevent bug like one
+GENERAL_REVIEW	without mention last week bug kept line close whenev tri use
+OUT_OF_DOMAIN	well done
+OTHER_DOMAIN	good place talk hang friend
+OUT_OF_DOMAIN	line get slow time
+GENERAL_REVIEW	ok mani updat
+OUT_OF_DOMAIN	want earn line point tapjoy littl binch
+OTHER_DOMAIN	nice updat sinc last review keep good work
+OUT_OF_DOMAIN	absolut love line
+GENERAL_REVIEW	everyon game play use
+OUT_OF_DOMAIN	:-( love line man chang aw
+GENERAL_REVIEW	use great new updat broken
+OTHER_DOMAIN	use great new updat broken
+OUT_OF_DOMAIN	great app need last seen fitur like app
+GENERAL_REVIEW	cant use one phone
+OTHER_DOMAIN	newest updat line longer open freez black screen
+OTHER_DOMAIN	app alway stop work updat
+OTHER_DOMAIN	pretti good messag app thing bother
+GENERAL_REVIEW	keep improv
+GENERAL_REVIEW	use featur support disscuss process like note poll
+OTHER_DOMAIN	everyth group chat customiz chat encrypt cute japanes cartoon sticker 1gb onlin storag use well thought
+OUT_OF_DOMAIN	get ban cant chat noth wrong
+OUT_OF_DOMAIN	well okay
+OUT_OF_DOMAIN	seem work better
+OTHER_DOMAIN	much updat
+OUT_OF_DOMAIN	updat time one week go
+OUT_OF_DOMAIN	worst experi
+GENERAL_REVIEW	instal today morn start get error said unfortun stop play store etc etc
+OTHER_DOMAIN	im tempt switch messeng :/
+OTHER_DOMAIN	qualiti app decreas significantli
+OTHER_DOMAIN	good good app
+GENERAL_REVIEW	alway problem connect connect say make sure connect
+OUT_OF_DOMAIN	worst chat app
+OTHER_DOMAIN	show connect issu work perfectli phone issu line
+GENERAL_REVIEW	mani bug afrer updat :( pl fix
+GENERAL_REVIEW	tri anyth possibl chang condit text still often deliv
+OUT_OF_DOMAIN	unnecessari chang
+OUT_OF_DOMAIN	bit annoy open app news page first thing see instead chat
+OUT_OF_DOMAIN	s10 cant properli type sinc app window doesnt shift upper part screen
+OTHER_DOMAIN	cant see type
+GENERAL_REVIEW	cant past sinc ui shift well :( pl fix
+OTHER_DOMAIN	slow open work seem bloat cumbersom oper mother
+GENERAL_REVIEW	especi long seri tape get real call option recent chat screen need two direct separ button call video call
+OUT_OF_DOMAIN	best callin app honest guy make hang cancel sound call silent loud
+OTHER_DOMAIN	hurt ear eventhough alreadi lower way lowest sound ever imagin put loudest sound
+GENERAL_REVIEW	need improv text ea bold underlin ital text
+OUT_OF_DOMAIN	option take new call reject
+GENERAL_REVIEW	pleas delet keep part give us option disabl
+OTHER_DOMAIN	fan design bloat
+GENERAL_REVIEW	type cursor vertic blink bar current version almost invis
+OTHER_DOMAIN	pleas thicken size letter l soft keyboard least asap
+GENERAL_REVIEW	great applic suggest u make repli fitur simpl
+OUT_OF_DOMAIN	like swap repli messag dont need hold choos repli option
+OTHER_DOMAIN	pleas add view file chat option
+GENERAL_REVIEW	option take new call reject
+OUT_OF_DOMAIN	pleas delet keep part give us option disabl
+OUT_OF_DOMAIN	use app mani childish unnecessari option
+GENERAL_REVIEW	cant write pictur take send first write messag
+OUT_OF_DOMAIN	could still devic want use devic choos delet app old devic
+OUT_OF_DOMAIN	nuke peopl chat histori switch devic annoy
+OTHER_DOMAIN	let chatroom creator decid cant edit chat set like peopl album ect
+OTHER_DOMAIN	sticker organizatin set
+OTHER_DOMAIN	get confus mani multichat
+GENERAL_REVIEW	mess type
+GENERAL_REVIEW	realli annoy transfer line devic
+OTHER_DOMAIN	point ask want beack chat confirm transfer
+OUT_OF_DOMAIN	didnt know necessari sinc pc version line chat
+OUT_OF_DOMAIN	realli suck way back line chat pc
+OUT_OF_DOMAIN	log anoth devic lose inform messag
+OUT_OF_DOMAIN	get time make line use devic account
+OUT_OF_DOMAIN	freak lost everyth caus get kick game
+OUT_OF_DOMAIN	use much disk space
+OUT_OF_DOMAIN	line save data chat histori
+GENERAL_REVIEW	transfer account new phone back old phone chat histori lost
+OTHER_DOMAIN	furiou told line prior transfer account data would automat transfer
+OUT_OF_DOMAIN	told old phone chat histori would delet
+OTHER_DOMAIN	learn backup
+GENERAL_REVIEW	account log without notic chat histori lost
+OTHER_DOMAIN	app okay except take away earn point instal onto differ devic
+OTHER_DOMAIN	also lost contact use
+OUT_OF_DOMAIN	stuck sync data
+OUT_OF_DOMAIN	clear data cant recov chat group
+OUT_OF_DOMAIN	upgrad cant backup data chat histori
+OUT_OF_DOMAIN	option backup text file whole data
+OUT_OF_DOMAIN	bad still contact line
+OTHER_DOMAIN	back chat still lost
+OTHER_DOMAIN	backup chat data latest updat
+OUT_OF_DOMAIN	pl add auto-backup sync chat histori devic inc photo video like facebook messeng work abil seek voic messag
+OTHER_DOMAIN	discard chat histori import option
+GENERAL_REVIEW	cant backup data includ chat histori pictur like earlier
+OUT_OF_DOMAIN	let peopl decid want delet chat histori switch devic
+OTHER_DOMAIN	suck cant recov year convers memori someon love
+OTHER_DOMAIN	may get notif sometim dont worri app normal notifi afterward
+OTHER_DOMAIN	normal star let updat broke notif pop up
+GENERAL_REVIEW	longer get pop up tell got messag realli frustrat
+OTHER_DOMAIN	notif isnt work updat
+OTHER_DOMAIN	cant chang notif sound either
+OTHER_DOMAIN	notif line point lie
+OUT_OF_DOMAIN	sticker new notif fix
+OTHER_DOMAIN	keep show new notif noth click
+OUT_OF_DOMAIN	cant chang notif sound
+OUT_OF_DOMAIN	need fix notif doesnt work
+GENERAL_REVIEW	dont menu display notif screen
+GENERAL_REVIEW	want know happen line app
+GENERAL_REVIEW	need custom line notif group friend dont guess open line know sent messag
+OUT_OF_DOMAIN	pleas bring back pop-up notif
+OUT_OF_DOMAIN	would use pop-up notif
+GENERAL_REVIEW	need custom line notif group friend dont guess open line know sent messag
+GENERAL_REVIEW	tri talk friend get respons
+OUT_OF_DOMAIN	line notif work lock screen note
+OUT_OF_DOMAIN	wouldnt know someon text call silent mode
+OUT_OF_DOMAIN	wouldnt see notif
+OUT_OF_DOMAIN	want pop-up notif come back
+OUT_OF_DOMAIN	differ notif tone person group chat would great
+OUT_OF_DOMAIN	new updat good pop screen turn alway display sumsung galexi a7 dont know send messag messag open app pl approv matter
+OUT_OF_DOMAIN	love line want give higher rate recent rare get notif peopl messag
+GENERAL_REVIEW	pleas bring back screen pop notif inconveni new updat
+OTHER_DOMAIN	lack popup notif simpli infuri
+OTHER_DOMAIN	pleas give proxi featur line android io like line pc
+OUT_OF_DOMAIN	competitor viber proxi featur network set
+OTHER_DOMAIN	need proxi set android io connect wifi offic connect
+OUT_OF_DOMAIN	everi time tri relogin line account use phone number keep show verif temporari block pleas tri later one problem solut
+GENERAL_REVIEW	thai translat bot broken
+GENERAL_REVIEW	misunderstood badli ladybi talk
+GENERAL_REVIEW	pleas make line seen onlin like whatsapp messenger.thank
+GENERAL_REVIEW	love love love one request would abil seper rington chat
+GENERAL_REVIEW	show onlin
+OTHER_DOMAIN	must show onlin whatsapp
+GENERAL_REVIEW	cant buy sticker pleas fix silli buggi
+GENERAL_REVIEW	hard upload document feel heavi countri internet speed make share document tortur
+OTHER_DOMAIN	wish line regul comment section line today contain lot profan hatr
+GENERAL_REVIEW	want share post line share post one one
+GENERAL_REVIEW	cant share link one messag
+GENERAL_REVIEW	pleas make featur copi link work
+OUT_OF_DOMAIN	one upload imag anymor
+GENERAL_REVIEW	cant login newest version
+GENERAL_REVIEW	dont want statu post timelin
+GENERAL_REVIEW	ive disabl share profil media updat option still like
+OTHER_DOMAIN	issu edit option
+OUT_OF_DOMAIN	previou version use allow log email address forgot facebook account link
+GENERAL_REVIEW	suppos log
+GENERAL_REVIEW	pleas give us min length video timelin
+GENERAL_REVIEW	sometim wanna upload long video show friend famili
+OUT_OF_DOMAIN	let open link browser default app
+GENERAL_REVIEW	app browser suck
+GENERAL_REVIEW	fail recogn phone number order sign im gonna creat facebook account
+OUT_OF_DOMAIN	cant see person onlin
+OUT_OF_DOMAIN	cant see someon last seen like call app
+GENERAL_REVIEW	last month face problem time sign contact number show invalid
+OUT_OF_DOMAIN	cannot upload video imag pdf file directli whatsapp line
+OUT_OF_DOMAIN	emoji realli bad noth funni interest
+OTHER_DOMAIN	chang regist phone number show invalid phone number way
+OUT_OF_DOMAIN	stop make post got ban
+OUT_OF_DOMAIN	cant see someon onlin lastseen
+OUT_OF_DOMAIN	phone broke cant even login account new devic appar need transfer code old devic cours cant broken
+GENERAL_REVIEW	cant search said unknow error occur pleas tri later im mad right
+OUT_OF_DOMAIN	like theme sticker featur
+OUT_OF_DOMAIN	line sticker suggest featur throttl doesnt stupidli check match sticker everi charact type instantli
+OTHER_DOMAIN	cant login old account reset phone
+GENERAL_REVIEW	let login old account use mobil number
+OUT_OF_DOMAIN	pictur sent receiv low qualiti despit qualiti set high
+OTHER_DOMAIN	also take send pictur directli chat save automat
+OTHER_DOMAIN	id like see option disabl function
+OTHER_DOMAIN	updat googl chrome see pictur line today
+OTHER_DOMAIN	pleas let us send origin video
+GENERAL_REVIEW	send 4k 1080p video play back look compress blurri app
+OTHER_DOMAIN	pictur sent receiv low qualiti despit qualiti set high
+OTHER_DOMAIN	also take send pictur directli chat save automat
+GENERAL_REVIEW	id like see option disabl function
+GENERAL_REVIEW	pictur sent friend blurri
+GENERAL_REVIEW	updat found bug send photo video photo resolut drop even send origin photo
+GENERAL_REVIEW	play video thr timelin becom slow
+GENERAL_REVIEW	play video line get 10-30 kbp
+OUT_OF_DOMAIN	moreov share video pictur hd qualiti make irrit
+OUT_OF_DOMAIN	cannot upload big video length minut
+OUT_OF_DOMAIN	cant watch video app
+OUT_OF_DOMAIN	blur pictur app clear pictur download
+OTHER_DOMAIN	use profil pictur pictur crack
+OTHER_DOMAIN	cant watch video
+GENERAL_REVIEW	latest updat qualiti photo send worst send screenshot photo line photo quliti get worst pleas fix bug
+OUT_OF_DOMAIN	cant even open video photo group chat updat know newest version caus mani troubl wont even updat app
+OUT_OF_DOMAIN	imag send blur samsung galaxi s8
+OUT_OF_DOMAIN	latest updat qualiti photo send worst
+OTHER_DOMAIN	send screenshot photo line photo quliti get worst
+OTHER_DOMAIN	send photo camera phone qualiti decreas disturb school activ pleas fix
+OTHER_DOMAIN	photo file send longer work
+GENERAL_REVIEW	video gone hill
+GENERAL_REVIEW	cant send photo gif
+OUT_OF_DOMAIN	difficult watch video chat
+OUT_OF_DOMAIN	android updat cannot send photo video
+OUT_OF_DOMAIN	receiv send messag somehow media file never go
+OTHER_DOMAIN	lucki send media file across contact
+OTHER_DOMAIN	updat app cant send pictur
+OTHER_DOMAIN	unabl send pictur latest updat
+OUT_OF_DOMAIN	ive use app foe year hope would pleas fix pictur video send
+GENERAL_REVIEW	read thru post see one suffer abl send pictur thru app
+OUT_OF_DOMAIN	cant send pictur
+OUT_OF_DOMAIN	sometim abl send one pictur per day
+OTHER_DOMAIN	unabl send photo im data
+OUT_OF_DOMAIN	auto preveiw video chat android pleas
+GENERAL_REVIEW	allow send longer clip
+GENERAL_REVIEW	need also pictur transact could final send real hd pic
+OTHER_DOMAIN	dont know newest line app android updat
+OUT_OF_DOMAIN	line pleas fix call featur make us comfort use
+GENERAL_REVIEW	thank let download line
+OUT_OF_DOMAIN	pleas fix
+OTHER_DOMAIN	im use android version 9.0
+OUT_OF_DOMAIN	still receiv messag call
+OTHER_DOMAIN	pleas fix
+OTHER_DOMAIN	option avail chang star
+OTHER_DOMAIN	also phone becom hot
+OTHER_DOMAIN	cant hold
+OUT_OF_DOMAIN	xperia xz1 android
+OTHER_DOMAIN	call video call
+OUT_OF_DOMAIN	ugh
+GENERAL_REVIEW	even friend say didnt get notif messag didnt get notif messag sent month ago
+OTHER_DOMAIN	probabl go reason lose long distanc friendship use line spars
+GENERAL_REVIEW	anonym make peopl speak cruel reason
+OTHER_DOMAIN	countri peopl still learn use internet wise without regul
+OUT_OF_DOMAIN	line use sow seed disintegr
+OUT_OF_DOMAIN	btw countri cellular number start
+OTHER_DOMAIN	think anyon cant open post link
+OTHER_DOMAIN	what wrong
+OTHER_DOMAIN	screen rasio
+OTHER_DOMAIN	help
+GENERAL_REVIEW	pleas help
+OTHER_DOMAIN	pleas fix bug
+GENERAL_REVIEW	hey line overal like app much fix problem
+OUT_OF_DOMAIN	also want chang messag tone chang phone set
+OUT_OF_DOMAIN	like old one
+OTHER_DOMAIN	just-chat applic
+OTHER_DOMAIN	phone pocophon f1 pleas fix provlem
+GENERAL_REVIEW	great app keep great work
+GENERAL_REVIEW	help fix
+GENERAL_REVIEW	receiv photo
+GENERAL_REVIEW	android samsung galaxi s9
+GENERAL_REVIEW	pleas fix wise wont use longer
+GENERAL_REVIEW	ever read review one star review long time
+OTHER_DOMAIN	one reach support via email
+OUT_OF_DOMAIN	support
+OUT_OF_DOMAIN	everi competitor allow
+OTHER_DOMAIN	error temporarili block
+OUT_OF_DOMAIN	plz fix
+GENERAL_REVIEW	plz fix
+GENERAL_REVIEW	littl help fix
+GENERAL_REVIEW	make sens
+OTHER_DOMAIN	im android
+OTHER_DOMAIN	tri upload keep share later
+OTHER_DOMAIN	work
+OUT_OF_DOMAIN	like app
+OTHER_DOMAIN	lot hoax line today becom mouthpiec certain parti
+OUT_OF_DOMAIN	uninstal
+OTHER_DOMAIN	galaxi note
+OUT_OF_DOMAIN	cannot login becu dont rember password
+GENERAL_REVIEW	still got email phone number
+GENERAL_REVIEW	everytim chang password email link
+OTHER_DOMAIN	doesnt work
+GENERAL_REVIEW	im emerg
+OUT_OF_DOMAIN	good option
+GENERAL_REVIEW	pleas answer need help
+OTHER_DOMAIN	thank
+OTHER_DOMAIN	fix develop
+OTHER_DOMAIN	fix asap develop
+GENERAL_REVIEW	cand send wi-fi data
+OTHER_DOMAIN	fix
+GENERAL_REVIEW	hey
+OTHER_DOMAIN	line
+OTHER_DOMAIN	wake-up
+GENERAL_REVIEW	receiv pictur messag
+OUT_OF_DOMAIN	messag go thru
+OTHER_DOMAIN	thought problem data
+OUT_OF_DOMAIN	disgust
+GENERAL_REVIEW	thought problem data
+OUT_OF_DOMAIN	disgust
+GENERAL_REVIEW	cant anymor
+OTHER_DOMAIN	pleas fix s8 user
+GENERAL_REVIEW	thank attent
+OTHER_DOMAIN	realli unhappi situat
+GENERAL_REVIEW	happen anoth devic android 7.0
+OUT_OF_DOMAIN	tri repeatedli contact support one read issu give cooki cutter respons
+GENERAL_REVIEW	restor chat store theyll give chat law enforc sinc cant speak human get
+OTHER_DOMAIN	io shift chat right read option
+OUT_OF_DOMAIN	thank
+GENERAL_REVIEW	need optim
+OTHER_DOMAIN	data work fine im abl load send photo app
+GENERAL_REVIEW	download board king reach level took three day yet didnt get reward pleas fix
+OTHER_DOMAIN	line io alreadi
+OUT_OF_DOMAIN	fix
+OUT_OF_DOMAIN	ever read review one star review long time
+OUT_OF_DOMAIN	one reach support via email
+GENERAL_REVIEW	support
+OUT_OF_DOMAIN	everi competitor allow
+GENERAL_REVIEW	anoth thing alien us live puerto rico
+OUT_OF_DOMAIN	pleas fix
+GENERAL_REVIEW	pleas add featur
+GENERAL_REVIEW	use hangout year heard plan get rid consum messag app wife find somethong new
+OUT_OF_DOMAIN	enter line
+OUT_OF_DOMAIN	hello sir
+OUT_OF_DOMAIN	pleas fix issu
+OUT_OF_DOMAIN	error messag pop
+OTHER_DOMAIN	use call messag
+GENERAL_REVIEW	skype viber even close much app updat like everi week normal lot
+GENERAL_REVIEW	need improv
+OUT_OF_DOMAIN	latest updat accept compani read
+OUT_OF_DOMAIN	factori reset phone get back work condit
+OUT_OF_DOMAIN	ive use line
+OTHER_DOMAIN	year within past coupl month becam issu
+OTHER_DOMAIN	pretti aggrav point
+OTHER_DOMAIN	know mani peopl delet peopl group chat
+OTHER_DOMAIN	use app japan last year
+OUT_OF_DOMAIN	that bad
+OTHER_DOMAIN	hey ant join group call
+OTHER_DOMAIN	u pleas fix issu
+OUT_OF_DOMAIN	tht first thing wanna know open app
+OTHER_DOMAIN	whoever design must kind geniu
+GENERAL_REVIEW	ive tri uninstal restart noth got wors
+OUT_OF_DOMAIN	pleas help
+OTHER_DOMAIN	messeng chose use far
+GENERAL_REVIEW	realiz new updat offer pictur resolut option
+GENERAL_REVIEW	thank
+GENERAL_REVIEW	performance-hog
+GENERAL_REVIEW	fix
+OTHER_DOMAIN	tell start new account
+GENERAL_REVIEW	link email facebook mobil number purpos ask creat new account delet old one
+OUT_OF_DOMAIN	dont need
+OUT_OF_DOMAIN	remov good stabl featur
