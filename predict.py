@@ -8,7 +8,6 @@ from collections import Counter
 
 import tensorflow as tf
 import tensorflow.contrib.keras as kr
-from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
 from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file, build_sentences, \
@@ -20,6 +19,8 @@ except NameError:
     unicode = str
 
 base_dir = 'data/reviews'
+test_dir = os.path.join(base_dir, 'reviews.test.txt')
+whole_dir = os.path.join(base_dir, 'whole_texts.txt')
 vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
 train_file = os.path.join(base_dir, 'reviews.train.txt')
 
@@ -62,10 +63,19 @@ if __name__ == '__main__':
     # for i in test_demo:
     #     print(cnn_model.predict(i))
 
-    categories, cat_to_id = read_category()
-    words, word_to_id = read_vocab(vocab_dir)
-    x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
-    print(len(x_train[0]))
-    print(x_train[0])
+    # categories, cat_to_id = read_category()
+    # words, word_to_id = read_vocab(vocab_dir)
+    # x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
+    # print(len(x_train[1]))
+    # print(x_train[1])
 
+    model = build_word_vec(train_file)
+    print(model.similarity("skype", "line"))
+    print(model.similarity("issu", "problem"))
+    print(model.similarity("terribl", "worst"))
+    print(model.similarity("uninstal", "reinstal"))
+    print(model.similarity("pictur", "video"))
+    print(model.similarity("open", "stop"))
+    print(model.similarity("import", "updat"))
+    print()
 

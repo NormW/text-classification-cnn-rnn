@@ -20,6 +20,7 @@ train_dir = os.path.join(base_dir, 'reviews.train.txt')
 test_dir = os.path.join(base_dir, 'reviews.test.txt')
 val_dir = os.path.join(base_dir, 'reviews.val.txt')
 vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
+whole_dir = os.path.join(base_dir, 'whole_texts.txt')
 
 save_dir = 'checkpoints/reviews'
 save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径
@@ -77,8 +78,8 @@ def train():
     print("Loading training and validation data...")
     # 载入训练集与验证集
     start_time = time.time()
-    x_train, y_train = process_file(train_dir, word_to_id, cat_to_id, config.seq_length)
-    x_val, y_val = process_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    x_train, y_train = process_file(train_dir, whole_dir, cat_to_id, config.seq_length)
+    x_val, y_val = process_file(val_dir, whole_dir, cat_to_id, config.seq_length)
     time_dif = get_time_dif(start_time)
     print("Time usage:", time_dif)
 
@@ -141,7 +142,7 @@ def train():
 def test():
     print("Loading test data...")
     start_time = time.time()
-    x_test, y_test = process_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    x_test, y_test = process_file(test_dir, whole_dir, cat_to_id, config.seq_length)
 
     session = tf.Session()
     session.run(tf.global_variables_initializer())
@@ -184,14 +185,14 @@ def test():
 if __name__ == '__main__':
     if len(sys.argv) != 2 or sys.argv[1] not in ['train', 'test']:
         raise ValueError("""usage: python run_cnn.py [train / test]""")
+    # if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
+    #     build_vocab(train_dir, vocab_dir, config.vocab_size)
 
     print('Configuring CNN model...')
     config = TCNNConfig()
-    if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
-        build_vocab(train_dir, vocab_dir, config.vocab_size)
     categories, cat_to_id = read_category()
-    words, word_to_id = read_vocab(vocab_dir)
-    config.vocab_size = len(words)
+    # words, word_to_id = read_vocab(vocab_dir)
+    # config.vocab_size = len(words)
     model = TextCNN(config)
 
     if sys.argv[1] == 'train':

@@ -183,11 +183,11 @@ def test():
 if __name__ == '__main__':
     if len(sys.argv) != 2 or sys.argv[1] not in ['train', 'test']:
         raise ValueError("""usage: python run_rnn.py [train / test]""")
+    # if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
+    #     build_vocab(train_dir, vocab_dir, config.vocab_size)
 
     print('Configuring RNN model...')
     config = TRNNConfig()
-    if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
-        build_vocab(train_dir, vocab_dir, config.vocab_size)
     categories, cat_to_id = read_category()
     words, word_to_id = read_vocab(vocab_dir)
     config.vocab_size = len(words)
