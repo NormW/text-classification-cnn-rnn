@@ -84,7 +84,7 @@ def read_vocab(vocab_dir):
 
 def read_category():
     """读取分类目录，固定"""
-    categories = ['Subjective', 'Objective', 'Neutral']
+    categories = ['FUNCTIONAL_DOMAIN', 'GENERAL_REVIEW', 'OUT_OF_DOMAIN']
 
     categories = [native_content(x) for x in categories]
 
@@ -98,7 +98,7 @@ def to_words(content, words):
     return ''.join(words[x] for x in content)
 
 
-def process_file(filename, word_to_id, cat_to_id, max_length=50):
+def process_file(filename, word_to_id, cat_to_id, max_length=25):
     """将文件转换为id表示"""
     contents, labels = read_file(filename)
 
