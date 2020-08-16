@@ -11,7 +11,7 @@ import tensorflow.contrib.keras as kr
 from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file \
+from data.review_data_loader import read_category, read_vocab, read_file, build_vocab, process_file \
     # , build_sentences, build_word_vec
 
 try:
