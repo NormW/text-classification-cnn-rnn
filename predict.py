@@ -11,8 +11,8 @@ import tensorflow.contrib.keras as kr
 from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file, build_sentences, \
-    build_word_vec
+from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file \
+    # , build_sentences, build_word_vec
 
 try:
     bool(type(unicode))
@@ -55,17 +55,17 @@ class CnnModel:
 
 
 if __name__ == '__main__':
-    # cnn_model = CnnModel()
-    # test_demo = ['cant send photo gif',
-    #              'unabl send photo im data',
-    #              'mani bug afrer updat :( pl fix']
-    # for i in test_demo:
-    #     print(cnn_model.predict(i))
+    cnn_model = CnnModel()
+    test_demo = ['cant send photo gif',
+                 'unabl send photo im data',
+                 'mani bug afrer updat :( pl fix']
+    for i in test_demo:
+        print(cnn_model.predict(i))
 
-    categories, cat_to_id = read_category()
-    words, word_to_id = read_vocab(vocab_dir)
-    x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
-    print(len(x_train[0]))
-    print(x_train[0])
+    # categories, cat_to_id = read_category()
+    # words, word_to_id = read_vocab(vocab_dir)
+    # x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
+    # print(len(x_train[0]))
+    # print(x_train[0])
 
 
