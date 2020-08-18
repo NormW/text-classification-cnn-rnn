@@ -19,21 +19,33 @@ try:
 except NameError:
     unicode = str
 
-base_dir = 'data/reviews'
-vocab_dir = os.path.join(base_dir, 'vocab.txt')
-train_file = os.path.join(base_dir, 'train.txt')
-
 save_dir = 'checkpoints/reviews'
 save_path = os.path.join(save_dir, 'best_validation')
 
-review_categories = ['FUNCTIONAL_DOMAIN', 'OUT_OF_DOMAIN', 'GENERAL_REVIEW']
+
+class DataModel (object):
+    base_dir = 'data/function'
+    vocab_dir = os.path.join(base_dir, 'vocab.txt')
+    train_file = os.path.join(base_dir, 'train.txt')
+    categories = ['SIDE_FEATURE', 'SECURITY', 'OTHERS', 'SOCIAL']
+    number_classes = 4
+
+    def __init__(self, which):
+        if which == 'reviews':
+            self.base_dir = 'data/reviews'
+            self.vocab_dir = os.path.join(self.base_dir, 'vocab.txt')
+            self.train_file = os.path.join(self.base_dir, 'train.txt')
+            self.categories = ['FUNCTIONAL_DOMAIN', 'OUT_OF_DOMAIN', 'GENERAL_REVIEW']
+            self.number_classes = 3
 
 
 class CnnModel:
-    def __init__(self):
+    def __init__(self, which):
+        self.dataModel = which
         self.config = TCNNConfig()
-        self.categories, self.cat_to_id = read_category(review_categories)
-        self.words, self.word_to_id = read_vocab(vocab_dir)
+        self.config.num_classes = self.dataModel.number_classes
+        self.categories, self.cat_to_id = read_category(self.dataModel.categories)
+        self.words, self.word_to_id = read_vocab(self.dataModel.vocab_dir)
         self.config.vocab_size = len(self.words)
         self.model = TextCNN(self.config)
 
@@ -56,12 +68,21 @@ class CnnModel:
 
 
 if __name__ == '__main__':
-    cnn_model = CnnModel()
-    test_demo = ['cant send photo gif',
-                 'unabl send photo im data',
-                 'mani bug afrer updat :( pl fix']
-    for i in test_demo:
-        print(cnn_model.predict(i))
+    reviews_data_model = DataModel("reviews")
+    function_data_model = DataModel("function")
+
+    # To pick the data model to construct the cnn model
+    cnn_model = CnnModel(function_data_model)
+
+    in_file = "data/output/review_sentences.txt"
+    output_file = "data/output/generated_output.csv"
+
+    out = open(output_file, "w+")
+    with open(in_file, "r") as input_file:
+        for line in input_file:
+            out.write(cnn_model.predict(line) + ", " + line)
+        out.close()
+
 
 
 
