@@ -13,16 +13,35 @@ import tensorflow as tf
 from sklearn import metrics
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_vocab, read_category, batch_iter, process_file, build_vocab
+from data.review_data_loader import read_vocab, read_category, batch_iter, process_file, build_vocab
 
-base_dir = 'data/reviews'
-train_dir = os.path.join(base_dir, 'reviews.train.txt')
-test_dir = os.path.join(base_dir, 'reviews.test.txt')
-val_dir = os.path.join(base_dir, 'reviews.val.txt')
-vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
 
 save_dir = 'checkpoints/reviews'
 save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径
+
+review_classes = 3
+function_classes = 4
+review_dir = 'data/reviews'
+function_dir = 'data/function'
+
+function_categories = ['SIDE_FEATURE', 'SECURITY', 'OTHERS', 'SOCIAL']
+review_categories = ['FUNCTIONAL_DOMAIN', 'OUT_OF_DOMAIN', 'GENERAL_REVIEW']
+
+
+class DataSource(object):
+    base_dir = 'data/function'
+
+    train_dir = os.path.join(base_dir, 'train.txt')
+    test_dir = os.path.join(base_dir, 'test.txt')
+    val_dir = os.path.join(base_dir, 'val.txt')
+    vocab_dir = os.path.join(base_dir, 'vocab.txt')
+
+    def __init__(self, dir_path):
+        self.base_dir = dir_path
+        self.train_dir = os.path.join(base_dir, 'train.txt')
+        self.test_dir = os.path.join(base_dir, 'test.txt')
+        self.val_dir = os.path.join(base_dir, 'val.txt')
+        self.vocab_dir = os.path.join(base_dir, 'vocab.txt')
 
 
 def get_time_dif(start_time):
@@ -77,8 +96,8 @@ def train():
     print("Loading training and validation data...")
     # 载入训练集与验证集
     start_time = time.time()
-    x_train, y_train = process_file(train_dir, word_to_id, cat_to_id, config.seq_length)
-    x_val, y_val = process_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    x_train, y_train = process_file(data_source.train_dir, word_to_id, cat_to_id, config.seq_length)
+    x_val, y_val = process_file(data_source.val_dir, word_to_id, cat_to_id, config.seq_length)
     time_dif = get_time_dif(start_time)
     print("Time usage:", time_dif)
 
@@ -141,7 +160,7 @@ def train():
 def test():
     print("Loading test data...")
     start_time = time.time()
-    x_test, y_test = process_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    x_test, y_test = process_file(data_source.test_dir, word_to_id, cat_to_id, config.seq_length)
 
     session = tf.Session()
     session.run(tf.global_variables_initializer())
@@ -182,16 +201,26 @@ def test():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2 or sys.argv[1] not in ['train', 'test']:
-        raise ValueError("""usage: python run_cnn.py [train / test]""")
+    if len(sys.argv) != 3 or \
+            sys.argv[1] not in ['train', 'test'] or sys.argv[2] not in ['reviews', 'function']:
+        raise ValueError("""usage: python run_cnn.py [train / test] [reviews / function]""")
+
+    opr = sys.argv[1]
+    des = sys.argv[2]
+    base_dir = review_dir if (des == 'reviews') else function_dir
+    num_classes = review_classes if (des == 'reviews') else function_classes
+    target_categories = review_categories if (des == 'reviews') else function_categories
+
+    data_source = DataSource(base_dir)
 
     print('Configuring CNN model...')
     config = TCNNConfig()
-    if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
-        build_vocab(train_dir, vocab_dir, config.vocab_size)
-    categories, cat_to_id = read_category()
-    words, word_to_id = read_vocab(vocab_dir)
+    if not os.path.exists(data_source.vocab_dir):  # 如果不存在词汇表，重建
+        build_vocab(data_source.train_dir, data_source.vocab_dir, config.vocab_size)
+    categories, cat_to_id = read_category(target_categories)
+    words, word_to_id = read_vocab(data_source.vocab_dir)
     config.vocab_size = len(words)
+    config.num_classes = num_classes
     model = TextCNN(config)
 
     if sys.argv[1] == 'train':

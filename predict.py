@@ -11,8 +11,8 @@ import tensorflow.contrib.keras as kr
 from nltk import word_tokenize
 
 from cnn_model import TCNNConfig, TextCNN
-from data.cnews_loader import read_category, read_vocab, read_file, build_vocab, process_file, build_sentences, \
-    build_word_vec
+from data.review_data_loader import read_category, read_vocab, read_file, build_vocab, process_file \
+    # , build_sentences, build_word_vec
 
 try:
     bool(type(unicode))
@@ -20,17 +20,19 @@ except NameError:
     unicode = str
 
 base_dir = 'data/reviews'
-vocab_dir = os.path.join(base_dir, 'reviews.vocab.txt')
-train_file = os.path.join(base_dir, 'reviews.train.txt')
+vocab_dir = os.path.join(base_dir, 'vocab.txt')
+train_file = os.path.join(base_dir, 'train.txt')
 
 save_dir = 'checkpoints/reviews'
-save_path = os.path.join(save_dir, 'best_validation')  # 最佳验证结果保存路径
+save_path = os.path.join(save_dir, 'best_validation')
+
+review_categories = ['FUNCTIONAL_DOMAIN', 'OUT_OF_DOMAIN', 'GENERAL_REVIEW']
 
 
 class CnnModel:
     def __init__(self):
         self.config = TCNNConfig()
-        self.categories, self.cat_to_id = read_category()
+        self.categories, self.cat_to_id = read_category(review_categories)
         self.words, self.word_to_id = read_vocab(vocab_dir)
         self.config.vocab_size = len(self.words)
         self.model = TextCNN(self.config)
@@ -38,10 +40,9 @@ class CnnModel:
         self.session = tf.Session()
         self.session.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
-        saver.restore(sess=self.session, save_path=save_path)  # 读取保存的模型
+        saver.restore(sess=self.session, save_path=save_path)  # load model
 
     def predict(self, message):
-        # 支持不论在python2还是python3下训练的模型都可以在2或者3的环境下运行
         content = unicode(message)
         data = [self.word_to_id[x] for x in content if x in self.word_to_id]
 
@@ -55,17 +56,12 @@ class CnnModel:
 
 
 if __name__ == '__main__':
-    # cnn_model = CnnModel()
-    # test_demo = ['cant send photo gif',
-    #              'unabl send photo im data',
-    #              'mani bug afrer updat :( pl fix']
-    # for i in test_demo:
-    #     print(cnn_model.predict(i))
+    cnn_model = CnnModel()
+    test_demo = ['cant send photo gif',
+                 'unabl send photo im data',
+                 'mani bug afrer updat :( pl fix']
+    for i in test_demo:
+        print(cnn_model.predict(i))
 
-    categories, cat_to_id = read_category()
-    words, word_to_id = read_vocab(vocab_dir)
-    x_train, y_train = process_file(train_file, word_to_id, cat_to_id)
-    print(len(x_train[0]))
-    print(x_train[0])
 
 
